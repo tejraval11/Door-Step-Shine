@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  /* In your global CSS or App.css */
+.navbar-opaque {
+  background-color: #111827 !important; /* bg-gray-900 */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Or modify your Navbar component to include this class when on MyBookings page */
