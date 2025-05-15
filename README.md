@@ -56,9 +56,7 @@ If a slot is full, it appears as **disabled** on the frontend to prevent overboo
 ### 🤖 AI Chatbot
 An interactive bot that helps users navigate the platform and get answers to common queries.
 
-## 🖼️ UI Preview
 
-> _Add relevant screenshots/gifs here showcasing booking, time-slot logic, admin panel, etc._
 
 ## 📋 How to Run
 
@@ -89,11 +87,13 @@ npm run dev
 # Start frontend
 cd ../client
 npm start
+
 📅 Booking Status Lifecycle
 text
 Copy
 Edit
 Pending ➝ Completed / Cancelled (updated by Admin)
+
 🚀 Future Enhancements
 Payment Gateway Integration (Razorpay/Stripe)
 
